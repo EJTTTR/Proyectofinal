@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Áreas Protegidas RD</string>
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+    <string name="nav_header_title">Explora RD</string>
+    <string name="nav_header_subtitle">info@explorard.com</string>
+    <string name="nav_header_desc">Encabezado de navegación</string>
+    <string name="action_settings">Configuración</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_list">Listado de Áreas</string>
+    <string name="menu_map">Mapa</string>
+    <string name="menu_gallery">Galería</string>
+
+    <string name="search_hint">Buscar un parque o reserva…</string>
+    <string name="details_title">Detalles del Área</string>
+    <string name="location_label">Ubicación:</string>
+    <string name="ecosystem_label">Ecosistema Principal:</string>
+
+    <string-array name="area_names_array">
+        <item>Parque Nacional Cotubanamá (del Este)</item>
+        <item>Parque Nacional Jaragua</item>
+        <item>Parque Nacional Los Haitises</item>
+        <item>Parque Nacional Sierra de Bahoruco</item>
+        <item>Parque Nacional Armando Bermúdez</item>
+        <item>Parque Nacional Isla Cabritos</item>
+        <item>Reserva Científica Ébano Verde</item>
+        <item>Santuario de Mamíferos Marinos Estero Hondo</item>
+        <item>Parque Nacional Submarino La Caleta</item>
+        <item>Monumento Natural Saltos de Damajagua</item>
+        <item>Parque Nacional José del Carmen Ramírez</item>
+        <item>Reserva de la Biosfera Jaragua-Bahoruco-Enriquillo</item>
+    </string-array>
+
+    <string-array name="area_details_array">
+        <item>Ubicado en el extremo sureste, incluye la Isla Saona. Famoso por sus playas vírgenes, extensos arrecifes de coral y cuevas con arte rupestre taíno.</item>
+        <item>La mayor área protegida del Caribe, en el suroeste. Hogar de ecosistemas áridos y costeros, incluyendo la icónica Bahía de las Águilas. Refugio de flamencos, iguanas y tortugas marinas.</item>
+        <item>Situado en la Bahía de Samaná, se caracteriza por sus mogotes (colinas kársticas), manglares, cuevas con pictografías y una rica avifauna.</item>
+        <item>En la región suroeste, alberga bosques nublados de gran altitud y es un punto clave para la observación de aves endémicas y amenazadas.</item>
+        <item>En la Cordillera Central, es la principal vía de acceso al Pico Duarte. Protege importantes bosques de pino criollo y cuencas hidrográficas.</item>
+        <item>Situado en el Lago Enriquillo, el lago hipersalino más grande de las Antillas. Es un refugio vital para el cocodrilo americano y diversas especies de iguanas.</item>
+        <item>En la Cordillera Central, esta reserva protege cuencas hidrográficas y el árbol Ébano Verde, en peligro de extinción. Posee una extraordinaria biodiversidad en un bosque nublado.</item>
+        <item>En la costa norte, es un santuario crucial para la protección y observación del manatí del Caribe en su hábitat natural de lagunas costeras y manglares.</item>
+        <item>Próximo a Santo Domingo, fue el primer parque submarino del país. Es un popular destino de buceo y snorkel con arrecifes artificiales y una rica vida marina.</item>
+        <item>En la provincia de Puerto Plata, un impresionante complejo de 27 cascadas y charcos formados en piedra caliza, ideal para el ecoturismo y la aventura.</item>
+        <item>Colindante con el Armando Bermúdez en la Cordillera Central, es la cuna de varios de los ríos más importantes del país, como el Yaque del Sur.</item>
+        <item>Designada por la UNESCO, esta gran reserva del suroeste abarca los parques Jaragua, Sierra de Bahoruco y el Lago Enriquillo, protegiendo una inmensa y variada gama de ecosistemas.</item>
+    </string-array>
+</resources>
