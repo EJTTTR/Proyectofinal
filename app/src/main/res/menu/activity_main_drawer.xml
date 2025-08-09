@@ -6,47 +6,69 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/inicio"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/sobrenosotros"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/servicios"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/noticiasmedioambientales"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/videoseducativos"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Inicio" />
         <item
             android:id="@+id/areasprotegidas"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:icon="@drawable/ic_baseline_park_24"
+            android:title="Áreas Protegidas" />
         <item
             android:id="@+id/mapaareasprotegidas"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/medidasambientales"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/equipoministerio"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/voluntariados"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/acercade"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:icon="@drawable/ic_baseline_map_24"
+            android:title="Mapa de Áreas" />
     </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Infórmate">
+            <menu>
+                <item
+                    android:id="@+id/noticiasmedioambientales"
+                    android:icon="@drawable/ic_baseline_article_24"
+                    android:title="Noticias Ambientales" />
+                <item
+                    android:id="@+id/videoseducativos"
+                    android:icon="@drawable/ic_baseline_video_library_24"
+                    android:title="Videos Educativos" />
+                <item
+                    android:id="@+id/medidasambientales"
+                    android:icon="@drawable/ic_baseline_eco_24"
+                    android:title="Medidas Ambientales" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Participa">
+            <menu>
+                <item
+                    android:id="@+id/voluntariados"
+                    android:icon="@drawable/ic_baseline_volunteer_activism_24"
+                    android:title="Voluntariados" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Institución">
+            <menu>
+                <item
+                    android:id="@+id/sobrenosotros"
+                    android:icon="@drawable/ic_baseline_business_24"
+                    android:title="Sobre Nosotros" />
+                <item
+                    android:id="@+id/servicios"
+                    android:icon="@drawable/ic_baseline_miscellaneous_services_24"
+                    android:title="Servicios" />
+                <item
+                    android:id="@+id/equipoministerio"
+                    android:icon="@drawable/ic_baseline_groups_24"
+                    android:title="Nuestro Equipo" />
+                <item
+                    android:id="@+id/acercade"
+                    android:icon="@drawable/ic_baseline_info_outline_24"
+                    android:title="Acerca de los Desarrolladores" />
+            </menu>
+        </item>
+    </group>
+
 </menu>

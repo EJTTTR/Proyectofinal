@@ -2,8 +2,8 @@
     <string name="app_name">Áreas Protegidas RD</string>
     <string name="navigation_drawer_open">Abrir menú de navegación</string>
     <string name="navigation_drawer_close">Cerrar menú de navegación</string>
-    <string name="nav_header_title">Explora RD</string>
-    <string name="nav_header_subtitle">info@explorard.com</string>
+    <string name="nav_header_title">Ministerio de Medio Ambiente y Recursos Naturales</string>
+    <string name="nav_header_subtitle">info@ambiente.gob.do</string>
     <string name="nav_header_desc">Encabezado de navegación</string>
     <string name="action_settings">Configuración</string>
 
@@ -46,4 +46,33 @@
         <item>Colindante con el Armando Bermúdez en la Cordillera Central, es la cuna de varios de los ríos más importantes del país, como el Yaque del Sur.</item>
         <item>Designada por la UNESCO, esta gran reserva del suroeste abarca los parques Jaragua, Sierra de Bahoruco y el Lago Enriquillo, protegiendo una inmensa y variada gama de ecosistemas.</item>
     </string-array>
+
+    <string name="title_activity_about_ministry">Sobre el Ministerio</string>
+
+    <string name="ministry_history_title">Nuestra Historia</string>
+    <string name="ministry_history_content">El Ministerio de Medio Ambiente y Recursos Naturales de la República Dominicana fue creado el 18 de agosto del año 2000 mediante la Ley General 64–00. Esta legislación histórica unificó las diversas instituciones que hasta entonces trabajaban de forma dispersa en la gestión ambiental, creando una entidad rectora con el mandato de establecer las políticas para la conservación, protección, restauración y uso sostenible de los recursos naturales del país y velar por la máxima calidad ambiental para las presentes y futuras generaciones.</string>
+
+    <string name="ministry_mission_title">Misión</string>
+    <string name="ministry_mission_content">Regir la gestión del medio ambiente, los ecosistemas y los recursos naturales, para que sirva de base al desarrollo sostenible de la nación.</string>
+
+    <string name="ministry_vision_title">Visión</string>
+    <string name="ministry_vision_content">Ser una institución eficiente, reconocida por su gestión transparente y participativa en la protección, conservación y uso sostenible de los recursos naturales y el medio ambiente, para mejorar la calidad de vida de los dominicanos de la presente y futuras generaciones.</string>
+
+    <string name="ministry_explanatory_title">¿Quiénes Somos?</string>
+    <string name="ministry_explanatory_text">Somos el órgano gubernamental encargado de la elaboración, ejecución y fiscalización de las políticas sobre medio ambiente y recursos naturales. Nuestras responsabilidades incluyen la administración de las áreas protegidas, la regulación de la contaminación, la emisión de permisos ambientales, la promoción de la educación ambiental y la formulación de estrategias para la adaptación al cambio climático, garantizando así el patrimonio natural de todos los dominicanos.</string>
+
+    <string name="ministry_video_title">Video Institucional: República Dominicana, Potencia en Biodiversidad</string>
+    <string name="ministry_video_url">https://www.youtube.com/watch?v=-V5SvkZG23w</string>
+    <string name="ministry_video_description">Descubre la increíble riqueza natural de la República Dominicana en este video. Un recorrido visual por nuestros parques nacionales, ecosistemas y la biodiversidad que el Ministerio tiene la misión de proteger y conservar para el mundo.</string>
+
+    <string name="dev1_name">Engel De Jesus Tejada Rodriguez</string>
+    <string name="dev1_matricula">2023–0605</string>
+    <string name="dev1_phone_number">8297507286</string>
+    <string name="dev1_telegram_url">https://t.me/steinsvjgate937fj</string>
+
+    <string name="dev2_name">tu nombre</string>
+    <string name="dev2_matricula">2023</string>
+    <string name="dev2_phone_number">8297654321</string>
+    <string name="dev2_telegram_url">https://t.me/TuUsuarioTelegram2</string>
+
 </resources>

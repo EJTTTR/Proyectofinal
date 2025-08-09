@@ -22,4 +22,34 @@
         android:name="com.sg.proyectofinal.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/sobreNosotrosFragment"
+        android:name="com.sg.proyectofinal.ui.java.SobreNosotrosFragment"
+        android:label="fragment_sobre_nosotros"
+        tools:layout="@layout/fragment_sobre_nosotros" />
+    <fragment
+        android:id="@+id/noticiasMedioAmbientalesFragment"
+        android:name="com.sg.proyectofinal.ui.java.NoticiasMedioAmbientalesFragment"
+        android:label="fragment_noticias_medio_ambientales"
+        tools:layout="@layout/fragment_noticias_medio_ambientales" />
+    <fragment
+        android:id="@+id/areasProtegidasFragment"
+        android:name="com.sg.proyectofinal.ui.java.AreasProtegidasFragment"
+        android:label="fragment_areas_protegidas"
+        tools:layout="@layout/fragment_areas_protegidas" />
+    <fragment
+        android:id="@+id/medidasAmbientalesFragment"
+        android:name="com.sg.proyectofinal.ui.java.MedidasAmbientalesFragment"
+        android:label="fragment_medidas_ambientales"
+        tools:layout="@layout/fragment_medidas_ambientales" />
+    <fragment
+        android:id="@+id/voluntariadosFragment"
+        android:name="com.sg.proyectofinal.ui.java.VoluntariadosFragment"
+        android:label="fragment_voluntariados"
+        tools:layout="@layout/fragment_voluntariados" />
+    <fragment
+        android:id="@+id/acercaDeFragment"
+        android:name="com.sg.proyectofinal.ui.java.acercaDeFragment"
+        android:label="fragment_acerca_de"
+        tools:layout="@layout/fragment_acerca_de" />
 </navigation>
