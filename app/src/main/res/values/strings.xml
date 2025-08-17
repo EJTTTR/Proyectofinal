@@ -101,4 +101,10 @@
     <string name="manejo_residuos">Manejo de Residuos</string>
     <string name="proteccion_biodiversidad">Protección de Biodiversidad</string>
 
+    <string name="videos_educativos_title">Videos Educativos</string>
+    <string name="reciclaje_title">Reciclaje</string>
+    <string name="conservacion_title">Conservación</string>
+    <string name="cambio_climatico_title">Cambio Climático</string>
+    <string name="biodiversidad_title">Biodiversidad</string>
+
 </resources>

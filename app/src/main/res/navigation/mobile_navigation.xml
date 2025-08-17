@@ -33,9 +33,9 @@
 
     <fragment
         android:id="@+id/videoseducativos"
-        android:name="com.sg.proyectofinal.ui.slideshow.SlideshowFragment"
+        android:name="com.sg.proyectofinal.ui.java.VideosEducativosFragment"
         android:label="Videos Educativos"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_videos_educativos" />
 
     <fragment
         android:id="@+id/medidasambientales"
