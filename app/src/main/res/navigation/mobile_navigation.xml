@@ -20,9 +20,15 @@
 
     <fragment
         android:id="@+id/mapaareasprotegidas"
-        android:name="com.sg.proyectofinal.ui.gallery.GalleryFragment"
+        android:name="com.sg.proyectofinal.ui.java.FragmentMapaAreas"
         android:label="Mapa de Áreas"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_mapa_areas" />
+
+    <fragment
+        android:id="@+id/detalleAreaFragment"
+        android:name="com.sg.proyectofinal.ui.java.FragmentDetalleArea"
+        android:label="Detalle del Área"
+        tools:layout="@layout/fragment_detalle_area" />
 
     <!-- Sección Infórmate -->
     <fragment
