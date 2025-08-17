@@ -3,53 +3,75 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/inicio">
 
+    <!-- Sección Principal -->
     <fragment
-        android:id="@+id/nav_home"
+        android:id="@+id/inicio"
         android:name="com.sg.proyectofinal.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.sg.proyectofinal.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/areasprotegidas"
+        android:name="com.sg.proyectofinal.ui.java.AreasProtegidasFragment"
+        android:label="Áreas Protegidas"
+        tools:layout="@layout/fragment_areas_protegidas" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.sg.proyectofinal.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/mapaareasprotegidas"
+        android:name="com.sg.proyectofinal.ui.gallery.GalleryFragment"
+        android:label="Mapa de Áreas"
+        tools:layout="@layout/fragment_gallery" />
+
+    <!-- Sección Infórmate -->
     <fragment
-        android:id="@+id/sobreNosotrosFragment"
-        android:name="com.sg.proyectofinal.ui.java.SobreNosotrosFragment"
-        android:label="fragment_sobre_nosotros"
-        tools:layout="@layout/fragment_sobre_nosotros" />
-    <fragment
-        android:id="@+id/noticiasMedioAmbientalesFragment"
+        android:id="@+id/noticiasmedioambientales"
         android:name="com.sg.proyectofinal.ui.java.NoticiasMedioAmbientalesFragment"
-        android:label="fragment_noticias_medio_ambientales"
+        android:label="Noticias Ambientales"
         tools:layout="@layout/fragment_noticias_medio_ambientales" />
+
     <fragment
-        android:id="@+id/areasProtegidasFragment"
-        android:name="com.sg.proyectofinal.ui.java.AreasProtegidasFragment"
-        android:label="fragment_areas_protegidas"
-        tools:layout="@layout/fragment_areas_protegidas" />
+        android:id="@+id/videoseducativos"
+        android:name="com.sg.proyectofinal.ui.slideshow.SlideshowFragment"
+        android:label="Videos Educativos"
+        tools:layout="@layout/fragment_slideshow" />
+
     <fragment
-        android:id="@+id/medidasAmbientalesFragment"
+        android:id="@+id/medidasambientales"
         android:name="com.sg.proyectofinal.ui.java.MedidasAmbientalesFragment"
-        android:label="fragment_medidas_ambientales"
+        android:label="Medidas Ambientales"
         tools:layout="@layout/fragment_medidas_ambientales" />
+
+    <!-- Sección Participa -->
     <fragment
-        android:id="@+id/voluntariadosFragment"
+        android:id="@+id/voluntariados"
         android:name="com.sg.proyectofinal.ui.java.VoluntariadosFragment"
-        android:label="fragment_voluntariados"
+        android:label="Voluntariados"
         tools:layout="@layout/fragment_voluntariados" />
+
+    <!-- Sección Institución -->
     <fragment
-        android:id="@+id/acercaDeFragment"
+        android:id="@+id/sobrenosotros"
+        android:name="com.sg.proyectofinal.ui.java.SobreNosotrosFragment"
+        android:label="Sobre Nosotros"
+        tools:layout="@layout/fragment_sobre_nosotros" />
+
+    <fragment
+        android:id="@+id/servicios"
+        android:name="com.sg.proyectofinal.ui.java.ServiciosFragment"
+        android:label="@string/servicios_title"
+        tools:layout="@layout/fragment_servicios" />
+
+    <fragment
+        android:id="@+id/equipoministerio"
+        android:name="com.sg.proyectofinal.ui.java.SobreNosotrosFragment"
+        android:label="Nuestro Equipo"
+        tools:layout="@layout/fragment_sobre_nosotros" />
+
+    <fragment
+        android:id="@+id/acercade"
         android:name="com.sg.proyectofinal.ui.java.acercaDeFragment"
-        android:label="fragment_acerca_de"
+        android:label="Acerca de los Desarrolladores"
         tools:layout="@layout/fragment_acerca_de" />
 </navigation>

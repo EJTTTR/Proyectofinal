@@ -70,9 +70,35 @@
     <string name="dev1_phone_number">8297507286</string>
     <string name="dev1_telegram_url">https://t.me/steinsvjgate937fj</string>
 
-    <string name="dev2_name">tu nombre</string>
-    <string name="dev2_matricula">2023</string>
-    <string name="dev2_phone_number">8297654321</string>
-    <string name="dev2_telegram_url">https://t.me/TuUsuarioTelegram2</string>
+    <string name="dev2_name">Waren Jesus Sanchez Made</string>
+    <string name="dev2_matricula">2023-1198</string>
+    <string name="dev2_phone_number">8495016413</string>
+    <string name="dev2_telegram_url">https://t.me/WarenJSM29</string>
+
+    <string name="tab_layout_description">Controles de navegación para el carrusel de imágenes</string>
+
+    <string name="menu_slideshow">Presentación</string>
+
+    <string name="menu_areas_protegidas">Áreas Protegidas</string>
+    <string name="menu_mapa_areas">Mapa de Áreas</string>
+    <string name="menu_noticias_ambientales">Noticias Ambientales</string>
+    <string name="menu_videos_educativos">Videos Educativos</string>
+    <string name="menu_medidas_ambientales">Medidas Ambientales</string>
+    <string name="menu_voluntariados">Voluntariados</string>
+    <string name="menu_sobre_nosotros">Sobre Nosotros</string>
+    <string name="menu_servicios">Servicios</string>
+    <string name="menu_equipo_ministerio">Nuestro Equipo</string>
+    <string name="menu_acerca_desarrolladores">Acerca de los Desarrolladores</string>
+
+    <string name="icono_servicio">Icono del servicio</string>
+
+    <string name="servicios_title">Servicios</string>
+    <string name="servicios_subtitle">Servicios que ofrece el Ministerio de Medio Ambiente</string>
+    <string name="autorizaciones">Autorizaciones Ambientales</string>
+    <string name="certificaciones">Certificación Ambiental</string>
+    <string name="educacion_ambiental">Educación Ambiental</string>
+    <string name="calidad_aire">Control de Calidad del Aire</string>
+    <string name="manejo_residuos">Manejo de Residuos</string>
+    <string name="proteccion_biodiversidad">Protección de Biodiversidad</string>
 
 </resources>

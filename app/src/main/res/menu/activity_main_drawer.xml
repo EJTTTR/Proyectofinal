@@ -7,15 +7,15 @@
         <item
             android:id="@+id/inicio"
             android:icon="@drawable/ic_baseline_home_24"
-            android:title="Inicio" />
+            android:title="@string/menu_home" />
         <item
             android:id="@+id/areasprotegidas"
             android:icon="@drawable/ic_baseline_park_24"
-            android:title="Áreas Protegidas" />
+            android:title="@string/menu_areas_protegidas" />
         <item
             android:id="@+id/mapaareasprotegidas"
             android:icon="@drawable/ic_baseline_map_24"
-            android:title="Mapa de Áreas" />
+            android:title="@string/menu_mapa_areas" />
     </group>
 
     <group android:checkableBehavior="single">
@@ -24,15 +24,15 @@
                 <item
                     android:id="@+id/noticiasmedioambientales"
                     android:icon="@drawable/ic_baseline_article_24"
-                    android:title="Noticias Ambientales" />
+                    android:title="@string/menu_noticias_ambientales" />
                 <item
                     android:id="@+id/videoseducativos"
                     android:icon="@drawable/ic_baseline_video_library_24"
-                    android:title="Videos Educativos" />
+                    android:title="@string/menu_videos_educativos" />
                 <item
                     android:id="@+id/medidasambientales"
                     android:icon="@drawable/ic_baseline_eco_24"
-                    android:title="Medidas Ambientales" />
+                    android:title="@string/menu_medidas_ambientales" />
             </menu>
         </item>
     </group>
@@ -43,7 +43,7 @@
                 <item
                     android:id="@+id/voluntariados"
                     android:icon="@drawable/ic_baseline_volunteer_activism_24"
-                    android:title="Voluntariados" />
+                    android:title="@string/menu_voluntariados" />
             </menu>
         </item>
     </group>
@@ -54,21 +54,20 @@
                 <item
                     android:id="@+id/sobrenosotros"
                     android:icon="@drawable/ic_baseline_business_24"
-                    android:title="Sobre Nosotros" />
+                    android:title="@string/menu_sobre_nosotros" />
                 <item
                     android:id="@+id/servicios"
                     android:icon="@drawable/ic_baseline_miscellaneous_services_24"
-                    android:title="Servicios" />
+                    android:title="@string/menu_servicios" />
                 <item
                     android:id="@+id/equipoministerio"
                     android:icon="@drawable/ic_baseline_groups_24"
-                    android:title="Nuestro Equipo" />
+                    android:title="@string/menu_equipo_ministerio" />
                 <item
                     android:id="@+id/acercade"
                     android:icon="@drawable/ic_baseline_info_outline_24"
-                    android:title="Acerca de los Desarrolladores" />
+                    android:title="@string/menu_acerca_desarrolladores" />
             </menu>
         </item>
     </group>
-
 </menu>
