@@ -65,9 +65,20 @@
 
     <fragment
         android:id="@+id/equipoministerio"
-        android:name="com.sg.proyectofinal.ui.java.SobreNosotrosFragment"
-        android:label="Nuestro Equipo"
-        tools:layout="@layout/fragment_sobre_nosotros" />
+        android:name="com.sg.proyectofinal.ui.java.EquipoMinisterioFragment"
+        android:label="@string/equipo_title"
+        tools:layout="@layout/fragment_equipo_ministerio">
+
+        <action
+            android:id="@+id/action_equipoMinisterioFragment_to_detalleMiembroFragment"
+            app:destination="@id/detalleMiembroFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/detalleMiembroFragment"
+        android:name="com.sg.proyectofinal.ui.java.DetalleMiembroFragment"
+        android:label="@string/perfil_title"
+        tools:layout="@layout/fragment_detalle_miembro"/>
 
     <fragment
         android:id="@+id/acercade"
